@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "react",
+    "module": "commonjs",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true
+  },
+  "files": [
+    "./typings/browser.d.ts",
+    "./js/app.ts"
+  ],
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "bower_components"
+  ]
+}
